@@ -6,11 +6,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/argoflow/argoflow
+    repoURL: https://github.com/Laxman-SM/argoflow
     targetRevision: HEAD
     path: .
     kustomize:
-      version: v4.0.5
+      version: v3.2.0
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
